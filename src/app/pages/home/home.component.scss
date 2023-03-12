@@ -5,9 +5,9 @@
     justify-content: center;
     vertical-align: middle;
     padding: 12px;
-    
+
     .p-card {
-        width: 600px;
+        width: 700px;
         min-width: 280px;
         padding: 40px 12px;
         position: relative;
@@ -30,12 +30,52 @@
         }
 
         .fib-clock-container {
-            height: 250px;
-            width: 90%;
+            height: 403px;
+            width: 640px;
             margin: 24px auto;
             border: 4px solid var(--white);
             background: var(--main-bg);
             box-shadow: 0 0 8px rgba(0, 0, 0, .12);
+            border: 3px solid #000;
+
+            .box {
+                background: #fff;
+                color: #000;
+                display: flex;
+                align-items: center;
+                vertical-align: middle;
+                justify-content: center;
+                border: 3px solid #000;
+            }
+            .red-box {
+                background: red;
+                color: #fff;
+            }
+            .blue-box {
+                background: blue;
+                color: #fff;
+            }
+            .green-box {
+                background: green;
+                color: #fff;
+            }
+
+            .box-5 {
+                width: 400px;
+                height: 400px;
+            }
+            .box-3 {
+                width: 240px;
+                height: 240px;
+            }
+            .box-2 {
+                width: 160px;
+                height: 160px;
+            }
+            .box-1 {
+                width: 80px;
+                height: 80px;
+            }
 
         }
 
@@ -51,4 +91,8 @@
             }
         }
     }
+}
+
+.d-flex {
+    display: flex;
 }
