@@ -1,0 +1,25 @@
+<div class="main-container">
+    <div class="p-card">
+        <div class="card-title-box">
+            <h3>Fibonacci - Clock</h3>
+        </div>
+
+        <div class="fib-clock-container">
+            
+        </div>
+
+        <div class="btns-box">
+            <div>
+                <button pButton pRipple type="button" label="Back" (click)="back()" class="p-button-secondary"></button>
+            </div>
+            <h1>{{current_time | date:"HH:mm"}}</h1>
+            <div>
+                <button pButton pRipple type="button" label="Next" (click)="next()" class="p-button-info"></button>
+            </div>
+        </div>
+
+        <button pButton pRipple type="button" label="Fib Clock Draw" (click)="fibClock()" class="p-button-danger"></button>
+
+    </div>
+
+</div>
